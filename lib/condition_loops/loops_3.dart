@@ -25,3 +25,24 @@ void main() {
 Total is 390
 average is 78.0
 **/
+
+/**
+ * void main() {
+  int a = 10;
+  while (a < 100) {
+    print("nomor ke- $a");
+    a++;
+  }
+} **/
+
+// OUTPUT : nomor ke-10,dst
+
+void main() {
+  int a = 10;
+  do {
+    print("nomor ke- $a");
+    a--;
+  } while (a >= 0);
+}
+
+// OUTPUT : nomor ke-10, 9,dst
